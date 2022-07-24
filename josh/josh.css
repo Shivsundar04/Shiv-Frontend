@@ -1,0 +1,240 @@
+
+.header_logo {
+    vertical-align: middle;
+    border-style: none;
+    height: 5em;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    top: 28em;
+}
+.navbar-collapse{
+    justify-content: right;
+}
+.navbar-expand-lg{
+    z-index: 1;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    width: 100%;
+}
+.carousel-inner {
+    height: 36em;
+}
+.carousel-item{
+    height: 36em;
+    background-size: contain cover;
+}
+.carousel-item img{
+    height: 100%
+}
+.d-block{
+    height: 10em;
+    background-size: contain;
+    position: sticky;
+}
+.mac{
+    height: 7em;
+}
+.carding-one{
+    padding: 0 2em 2em 2em;
+}
+.logo-id{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4em 10em;
+}
+.card{
+    padding: 2em 5em;
+    background: #f8f8f8;
+    margin: 0 1em;
+    text-align: center;
+    height: 13em;
+    padding: 0em 7em 0em 7em;
+    box-shadow: 3px 3px 7px black;
+}
+.carding{
+    padding-left: 12em;
+}
+.logo-jd{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10em;
+    position: absolute;
+    top: 47em;
+}
+.card-sec{
+    padding: 2em 5em;
+    background: #f8f8f8;
+    margin: 0 1em;
+    text-align: center;
+    height: 13em;
+    padding: 0em 7em 0em 7em;
+    box-shadow: 3px 3px 7px black;
+}
+.illustration {
+    position: absolute;
+    top: 67em;
+    height: 40em;
+    left: -6em;
+}
+.paragraph_header{
+    position: absolute;
+    top: 75em;
+    left: 63em;
+    
+}
+.hr{
+    position: absolute;
+    width: 27em;
+    top: 79em;
+    left: 59em;
+}
+.paragraph{
+    position:absolute;
+    top: 81em;
+    left: 59em;
+    width: 28em
+}
+.header-title {
+    position: absolute;
+    top: 38em;
+    left: 14em;
+    font-family: 'PT_Sans-Web-Bold';
+    font-weight: 300;
+    color: #292929;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 64px;
+}
+.slider{ margin-left: 23em;}
+.slide_track{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 121em;
+    left:18em;
+    width:59em;
+    overflow: hidden;
+}
+.slide_img{
+    opacity: .5;
+}
+.slide_track .slide{
+    padding: 0 4em 0 4em;
+    animation: mymove 40s linear infinite;
+    /* animation: mymove 30s linear infinite; */
+}
+.slide_track .slide_img:hover{
+    opacity: 1!important;
+
+}
+
+
+.slide_img{
+    height: 6em;
+}
+
+@keyframes mymove {
+    0%{
+        transform: translate3d(0em ,10px ,10px);
+    }
+    100%{
+        transform: translate3d(0 ,0 ,0);
+        transform: translate3d(calc(-250px * 24), 10px, 10px);
+    }
+   
+}
+.slider .slide{
+    height: 100px;
+    width: 250px;
+}
+.map iframe{
+    position: absolute;
+    top: 137em;
+    align-items: center;
+    width: 100%;
+    height: 20em;
+}
+.lower{
+    position: absolute;
+    top: 164em;
+    left: 13em;
+}
+.lower h1{
+    width: 10em;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 165em;
+    left: 51em;
+    width: 28em;
+}
+.wider_1 ,.wider_2,.wider_3{
+    background: #f5f5f5;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 11px;
+}
+.wider_3{
+    height: 10em;
+    padding: 1.5em 0 0 1.5em;
+}
+button{
+    height: 50px;
+    line-height: 48px;
+    border: 2px solid #267096;
+    background: #267096;
+    color: #fff;
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0 !important;
+}
+footer{
+    display: flex;
+    position: absolute;
+    top: 192em;
+    background: lightgray;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2em;
+}
+.footer_logo{
+    height: 4em;
+}
+/* .copy{
+    width: 59em;
+    text-align: center;
+    padding: 3em;
+} */
+.lagos{
+    list-style: none;
+    display: flex;
+    padding:0 1em 0 1em ;
+}
+.fatt{
+    padding: 0em 1em 0em 1em;
+}
